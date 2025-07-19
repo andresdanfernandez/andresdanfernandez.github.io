@@ -5,7 +5,7 @@ import macrosPlugin from 'vite-plugin-babel-macros'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/personal-portfolio/', // Add this for GitHub Pages
+  base: '/', // User site - no subdirectory
   plugins: [
     macrosPlugin(),
     react(),
