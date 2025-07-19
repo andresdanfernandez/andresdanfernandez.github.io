@@ -1,0 +1,39 @@
+@import "tailwindcss" ;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 110%;
+  box-sizing: border-box;
+  background: #0a1623; /* deep blue */
+  color: #f5f6fa; /* off-white */
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --accent: #4fd1c5; /* teal accent */
+  --section-bg: #101a2b;
+  --section-alt-bg: #18243a;
+  --text-main: #f5f6fa;
+  --text-muted: #b0b8c9;
+}
+
+main {
+  scroll-snap-type: y mandatory;
+}
+section {
+  scroll-snap-align: start;
+}
