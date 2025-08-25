@@ -559,7 +559,7 @@ function InfoOverlay({ planet, onBack }) {
         <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-start', marginTop: 8 }}>
           {isAbout && (
             <a
-              href="https://drive.google.com/file/d/1ZjjBcx_Kfb1Pmkl1i0jaYv4ewtBeFitX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BA2Yh6awnv4P5ONlgx2tGY0c2od3Ys8u/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{
